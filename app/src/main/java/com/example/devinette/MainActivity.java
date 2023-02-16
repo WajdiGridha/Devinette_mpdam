@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 verif.setVisibility(View.VISIBLE);
                 result.setVisibility(View.VISIBLE);
                 history.setVisibility(View.VISIBLE);
+                history.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
                 nombre[0] = 1 + (int)(Math.random() * (1000));
                 result.setText(String.valueOf(nombre[0]));
                 i[0] =0;
@@ -71,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
                 result.setVisibility(View.VISIBLE);
                 nombre[0] = 1 + (int) (Math.random() * (1000));
                 result.setText(String.valueOf(nombre[0]));
+                history.setVisibility(View.VISIBLE);
+                history.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
                 i[0] = 0;
                 score[0] = 100;
                 timer.setVisibility(View.VISIBLE);
